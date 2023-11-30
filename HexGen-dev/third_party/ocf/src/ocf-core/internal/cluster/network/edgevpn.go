@@ -1,5 +1,0 @@
-package network
-
-func StartNetworkWeaver() {
-
-}
