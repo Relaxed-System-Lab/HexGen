@@ -1,0 +1,12 @@
+name: relay
+p2p: {}
+path: ""
+port: "8092"
+queue:
+    port: "8094"
+vacuum:
+    interval: 10
+bootstrap:
+    addrs:
+    #  - "/ip4/147.189.197.175/tcp/43905/p2p/QmVTMfAUK1qMZGvrV6rAB16naJJhCYMNiyjFQqamS8RZGn"
+    mode: "standalone"

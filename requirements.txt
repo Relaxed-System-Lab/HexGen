@@ -1,0 +1,14 @@
+ninja
+packaging
+h5py
+tqdm
+six
+regex
+transformers
+pynvml
+nats-py
+loguru
+aiohttp
+pandas
+sentencepiece
+protobuf
