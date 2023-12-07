@@ -1,3 +1,4 @@
+# Adapted from https://github.com/AFDWang/Hetu-Galvatron/blob/00b8abc168a2deb26861e4672b922acf50321980/galvatron/core/initialize.py#L6
 import torch
 import torch.nn as nn
 from contextlib import contextmanager

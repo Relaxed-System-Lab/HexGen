@@ -1,3 +1,4 @@
+# Adapted from https://github.com/AFDWang/Hetu-Galvatron/blob/00b8abc168a2deb26861e4672b922acf50321980/galvatron/models/llama/LlamaModel_sequential.py#L27
 import torch.nn as nn
 import torch
 try:

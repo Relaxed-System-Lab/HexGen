@@ -1,3 +1,4 @@
+# Adapted from https://github.com/AFDWang/Hetu-Galvatron/blob/main/galvatron/core/pipeline/pipeline.py#L23
 import torch
 import torch.nn as nn
 import numpy as np
