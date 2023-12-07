@@ -1,3 +1,4 @@
+# Adapted from https://github.com/AFDWang/Hetu-Galvatron/blob/00b8abc168a2deb26861e4672b922acf50321980/galvatron/core/pipeline/grad_reduce.py#L245
 from typing import Optional, List, Union
 import torch
 from torch.nn.parallel import DistributedDataParallel
