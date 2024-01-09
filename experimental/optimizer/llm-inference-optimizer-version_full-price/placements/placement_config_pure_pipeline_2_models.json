@@ -1,0 +1,176 @@
+[
+    {
+        "service_name": "Model_0",
+        "model_name": "Bert_2.6B",
+        "executable_name": "Bert_2.6B_8_device_hybrid_11111111",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        0
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        1
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        2
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        3
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        4
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        5
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        6
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        7
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "service_name": "Model_1",
+        "model_name": "Bert_2.6B",
+        "executable_name": "Bert_2.6B_8_device_hybrid_11111111",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        8
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        9
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        10
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        11
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        12
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        13
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        14
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        15
+                    ]
+                ]
+            }
+        ]
+    }
+]
