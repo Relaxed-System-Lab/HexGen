@@ -1,0 +1,19 @@
+[
+    {
+        "service_name": "Model_0",
+        "model_name": "Bert_2.6B",
+        "executable_name": "Bert_2.6B_1_device_hybrid_1",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        0
+                    ]
+                ]
+            }
+        ]
+    }
+]

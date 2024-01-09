@@ -1,0 +1,1105 @@
+[
+    {
+        "service_name": "Model_0_0",
+        "model_name": "Llama_70B",
+        "executable_name": "Llama_70B_44_device_hybrid_111111484444111111112",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        0
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        1
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        2
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        3
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        4
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        5
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        18,
+                        19,
+                        20,
+                        21
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        26,
+                        27,
+                        28,
+                        29
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        30,
+                        31,
+                        32,
+                        33
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        34
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        35
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        36
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        37
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        38
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        39
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        40
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        41
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        42,
+                        43
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "service_name": "Model_1_0",
+        "model_name": "Llama_70B",
+        "executable_name": "Llama_70B_36_device_hybrid_111111442222222211112",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        44
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        45
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        46
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        47
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        48
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        49
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        50,
+                        51,
+                        52,
+                        53
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        54,
+                        55,
+                        56,
+                        57
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        58,
+                        59
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        60,
+                        61
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        62,
+                        63
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        64,
+                        65
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        66,
+                        67
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        68,
+                        69
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        70,
+                        71
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        72,
+                        73
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        74
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        75
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        76
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        77
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        78,
+                        79
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "service_name": "Model_2_0",
+        "model_name": "Llama_70B",
+        "executable_name": "Llama_70B_37_device_hybrid_111111182222222211112",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        80
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        81
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        82
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        83
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        84
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        85
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        86
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        95,
+                        96
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        97,
+                        98
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        99,
+                        100
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        101,
+                        102
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        103,
+                        104
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        105,
+                        106
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        107,
+                        108
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        109,
+                        110
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        111
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        112
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        113
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        114
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        115,
+                        116
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "service_name": "Model_3_0",
+        "model_name": "Llama_70B",
+        "executable_name": "Llama_70B_67_device_hybrid_111112284888811222222",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        117
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        118
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        119
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        120
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        121
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        122,
+                        123
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        124,
+                        125
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        134,
+                        135,
+                        136,
+                        137
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        170
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        171
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        172,
+                        173
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        174,
+                        175
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        176,
+                        177
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        178,
+                        179
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        180,
+                        181
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        182,
+                        183
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "service_name": "Model_4_0",
+        "model_name": "Llama_70B",
+        "executable_name": "Llama_70B_20_device_hybrid_222222221111",
+        "mesh_group": [
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        184,
+                        185
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        186,
+                        187
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        188,
+                        189
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        190,
+                        191
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        192,
+                        193
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        194,
+                        195
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        196,
+                        197
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        198,
+                        199
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        200
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        201
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        202
+                    ]
+                ]
+            },
+            {
+                "node_ids": [
+                    0
+                ],
+                "devices": [
+                    [
+                        203
+                    ]
+                ]
+            }
+        ]
+    }
+]
