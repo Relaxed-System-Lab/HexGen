@@ -1,5 +1,3 @@
-# HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment [[paper](https://arxiv.org/pdf/2311.11514.pdf)]
-
 HexGen presents a versatile framework capable of facilitating Llama-2 inference, integrating **hybrid model parallelism** along with **an automated mechanism for request dispatch**. Key features include:
 - Comprehensive support for hybrid pipeline parallelism as well as tensor parallelism.
 - Ocf, a seamlessly integrated subsystem, is dedicated to coordinating and efficiently dispatching requests.
@@ -156,22 +154,3 @@ The figure below shows a comprehensive comparison of cost-performance trade-offs
 - HexGen with Asymmetric Parallel Group Support (Full Budget, Heterogeneous Setting): This configuration can achieve up to 2.3× lower latency and can handle peak request rates up to 4× higher than FlashAttention in a homogeneous setting, demonstrating significant performance enhancement.
 - HexGen (Half Budget, Heterogeneous Setting): Even with a halved budget, HexGen can still slightly outperform FlashAttention in a homogeneous environment, showcasing its ability to efficiently utilize heterogeneous GPUs.
 - Asymmetric vs. Symmetric Parallelism in HexGen (Full Budget, Heterogeneous Setting): The integration of asymmetric parallelism into HexGen can lead to up to 1.8× improvement in meeting lower latency deadlines and can manage peak traffic rates up to 2× higher than its symmetric parallelism counterpart.
-
-<img width="1650" alt="image" src="https://github.com/Youhe-Jiang/HexGen-dev/assets/85312798/b9cda86c-def9-4b03-8fe2-2d2b33dddf15">
-
-For further information regarding the experimental methodology and technical specifications, please refer to the detailed discussion presented in our [paper](https://arxiv.org/pdf/2311.11514.pdf).
-
-## Acknowledgements
-
-This initiative is led by the Relaxed System Lab team at HKUST. We are committed to ongoing development and support for this project. For referencing purposes, please cite HexGen as follows:
-
-```bash
-@misc{jiang2023hexgen,
-      title={HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment}, 
-      author={Youhe Jiang and Ran Yan and Xiaozhe Yao and Beidi Chen and Binhang Yuan},
-      year={2023},
-      eprint={2311.11514},
-      archivePrefix={arXiv},
-      primaryClass={cs.DC}
-}
-```

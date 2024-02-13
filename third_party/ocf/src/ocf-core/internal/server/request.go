@@ -40,7 +40,7 @@ func InferenceRequest(c *gin.Context) {
 }
 
 // AutoInferenceRequest is a function that handles the inference request, but dispatches it to the correct worker
-// todo(xiaozhe): we should have the ability to "cleverly" dispatch the inference request to the "fastest" worker
+// todo: we should have the ability to "cleverly" dispatch the inference request to the "fastest" worker
 func AutoInferenceRequest(c *gin.Context) {
 	var request structs.InferenceStruct
 	err := c.BindJSON(&request)

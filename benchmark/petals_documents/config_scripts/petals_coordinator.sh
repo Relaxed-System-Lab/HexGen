@@ -15,8 +15,3 @@ else
 fi
 
 
-
-
-
-
-/ip4/192.168.99.2/tcp/9992/p2p/QmaPtUnaY39LxQ8bXM4h1APeegQJo1BJzrkXWvVMCpShnp

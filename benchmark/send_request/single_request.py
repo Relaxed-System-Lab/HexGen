@@ -2,7 +2,8 @@ from request import *
 from datetime import datetime
 import asyncio
 
-head_node = "http://198.176.96.165:8092"
+# Modify the IP below before execution
+head_node = "http://xxx.xxx.xx.xxx:xxxx"
 
 process_time = []
 res_list = []
@@ -10,7 +11,8 @@ res_list = []
 start = datetime.now()
 
 data = {
-    'model_name': 'Llama-2-7b-chat-hf_0',
+    # align with the name specified in worker
+    'model_name': 'Llama-2-70b-chat-hf_0',
     'params': {
         'prompt': "Do you like your self? ",
         'max_new_tokens': 128,

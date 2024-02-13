@@ -21,12 +21,4 @@ The framework is built on top of [LibP2P](https://libp2p.io/), which connects th
 
 ## Demo
 
-We run a public, free instance of OCF as the inference API. [Status Page](https://ocfstatus.autoai.dev). More details coming soon!
-
-## Credits, Acknowledgements and Applications
-
-OCF was initially developed at ETH Zurich and many nodes were running by scientific computing @ ETH Zurich (a.k.a Euler).
-
-OCF supports the following applications:
-
-* [Debugging Challenge @ DataPerf](https://www.dataperf.org/training-set-cleaning-vision). Under the hood, submissions to the challenge are running on Euler cluster at ETH Zurich through OCF.
+We run a public, free instance of OCF as the inference API. [Status Page](https://ocfstatus.Anonymous.dev). More details coming soon!

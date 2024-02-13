@@ -5,7 +5,7 @@ Once you have started service on head coordinator and worker coordinators, you c
 First modify the input in `single_reques.py`, just make sure you add an suffix `_0` to correctly call the rank-0, an example is
 ```python
 data = {
-    'model_name': 'Llama-2-7b-chat-hf_0',
+    'model_name': 'Llama-2-70b-chat-hf_0',
     'params': {
         'prompt': "Do you like your self? ",
         'max_new_tokens': 128,
