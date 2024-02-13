@@ -9,7 +9,7 @@ export const options = {
   };
 
 export default function () {
-    const url = 'https://inference.autoai.dev/api/v1/request/inference';
+    const url = 'https://inference.Anonymous.dev/api/v1/request/inference';
     const payload = JSON.stringify({
         model_name: 'mosaicml/mpt-7b-chat',
         params: {

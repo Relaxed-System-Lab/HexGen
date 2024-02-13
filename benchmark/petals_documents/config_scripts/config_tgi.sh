@@ -39,8 +39,6 @@ make build
 build/core start --config config/cfg.yaml
 
 
-
-
 model=meta-llama/Llama-2-70b-chat-hf
 volume=$PWD/data # share a volume with the Docker container to avoid downloading weights every run
 token=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

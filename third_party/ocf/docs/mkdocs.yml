@@ -6,8 +6,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 
-repo_url: https://github.com/autoai-org/ocf
-repo_name: autoai-org/ocf
+repo_url: https://github.com/ocf
+repo_name: ocf
 nav:
   - Home: index.md
   - User Guide:
@@ -15,14 +15,14 @@ nav:
     - Inference: guide/inference.md
   - Advanced:
     - Internals:  advanced/internals.md
-  - Status: https://ocfstatus.autoai.dev
+  - Status: https://ocfstatus.Anonymous.dev
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/3BD3RzK2K2
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/autoaiHQ
+      link: https://twitter.com/AnonymousHQ
     - icon: fontawesome/brands/github 
-      link: https://github.com/autoai-org
+      link: https://github.com/Anonymous-org
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/autoai
+      link: https://hub.docker.com/u/Anonymous

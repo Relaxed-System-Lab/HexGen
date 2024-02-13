@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ocf_cli"
 version = "0.0.2"
 authors = [
-  { name="Xiaozhe Yao", email="askxzyao@gmail.com" },
+  { name="Anonymous author", email="Anonymous email" },
 ]
 description = "OCF CLI"
 readme = "README.md"
@@ -36,8 +36,4 @@ ocf = 'ocf_cli.bin.ocf:app'
 
 [tool.setuptools]
 packages = ["ocf_cli"]
-
-[project.urls]
-"Homepage" = "https://github.com/autoai-org/ocf"
-"Bug Tracker" = "https://github.com/autoai-org/ocf/issues"
 

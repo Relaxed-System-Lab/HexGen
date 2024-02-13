@@ -215,7 +215,7 @@ func AddClusterNode(c *gin.Context) {
 	cluster.NewSlurmClusterClient().AcquireMachine(acquireMachinePayload)
 }
 
-// todo(xiaozhe): in future the internals will be migrated to rpc calls
+// todo: in future the internals will be migrated to rpc calls
 // this function receives a message from a peer and updates its workload table
 func UpdatePeers(c *gin.Context) {
 	var peer p2p.Peer

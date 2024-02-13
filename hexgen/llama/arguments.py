@@ -49,8 +49,9 @@ def add_arguments(parser):
     parser.add_argument(
         "--model_name", type=str, default="Llama-2-7b-chat-hf", help="Assign the desired name for a worker"
     )
+    # Modify the IP below before execution
     parser.add_argument(
-        "--head_node", type=str, default='http://198.176.96.165:8092', help="Head node of coordinator"
+        "--head_node", type=str, default='http://xxx.xxx.xx.xxx:xxxx', help="Head node of coordinator"
     )
     parser.add_argument(
         "--priority", type=int, default=0, help="To be implemented",

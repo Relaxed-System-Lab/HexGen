@@ -15,7 +15,7 @@ def inference(i):
 def global_inference(i):
     url = f"{RELAY_URL}/api/v1/request/inference"
     resp = requests.post(url, json={
-        'model_name': 'togethercomputer/RedPajama-INCITE-7B-Base',
+        'model_name': 'meta-llama/Llama-2-70b-chat-hf',
         'params': {
             'prompt': "Alan Turing was a "
         }

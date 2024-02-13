@@ -19,7 +19,7 @@ sudo systemctl restart docker
 2. Run the docker command, tune the quantization, data type, num shards(how many GPUs to be used), cuda memory fraction, port (If planning to start multiple instances within one machine). Refer to `launcher.md` listed in tgi's repo for more details. Following command is an example.
 
 ```bash
-model=meta-llama/Llama-2-7b-chat-hf
+model=meta-llama/Llama-2-70b-chat-hf
 volume=$PWD/data # share a volume with the Docker container to avoid downloading weights every run
 token=<your cli READ token>
 

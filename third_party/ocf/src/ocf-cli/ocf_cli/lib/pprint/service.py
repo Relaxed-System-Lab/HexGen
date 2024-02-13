@@ -3,7 +3,7 @@ from rich.pretty import pprint
 from rich.table import Table
 from ocf_cli.lib.pprint._base import console
 
-RELAY_URL = "https://inference.autoai.dev"
+RELAY_URL = "https://inference.Anonymous.dev"
 
 def pprint_service():
     url = f"{RELAY_URL}/api/v1/status/table"

@@ -9,3 +9,12 @@ The system aligns pipeline stages with the corresponding tensor parallelism grou
 
 ### Fast Decoding Using Flash Attention
 Incorporating Flash Attention, HexGen significantly enhances its decoding capabilities. This integration brings state-of-the-art efficiency to attention mechanism computations within transformer models, leading to faster and more effective processing.
+
+### Core File Overview
+
+- HexGen integrates the `models`, `modules`, and `generation.py` scripts from [Flash Attention](https://github.com/Dao-AILab/flash-attention/tree/main/flash_attn) to utilize FlashAttention-2, enhancing the efficiency of attention mechanism computations.
+
+- `gen_hetero_groups.py`, `gen_comm_groups.py`, and `gen_parallel_groups.py` files are crucial for automatically configuring various tensor model parallel and pipeline parallel groups. This setup paves the way for advanced asymmetric hybrid parallelism strategies.
+
+- `gen_p2p_lists.py` and `heterogeneous_pipeline.py` scripts are designed to establish and manage the peer-to-peer communication (pipeline parallel communication) essential for asymmetric pipeline configurations.
+

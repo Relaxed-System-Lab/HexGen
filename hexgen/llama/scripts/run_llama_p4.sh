@@ -1,6 +1,7 @@
 export NCCL_IB_DISABLE=0
 export NCCL_IB_HCA=mlx5_2,mlx5_5
-export MASTER_ADDR='147.189.199.20'
+# Modify the master IP below before execution
+export MASTER_ADDR='xxx.xxx.xxx.xx'
 export MASTER_PORT=9991
 export WORLD_SIZE=6
 export RANK=4

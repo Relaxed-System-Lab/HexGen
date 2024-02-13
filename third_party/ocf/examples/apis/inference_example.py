@@ -1,7 +1,7 @@
 import json
 import requests
 
-URL = "https://api.autoai.dev/inference"
+URL = "https://api.Anonymous.dev/inference"
 
 def inference():
     resp = requests.post(URL, json={
