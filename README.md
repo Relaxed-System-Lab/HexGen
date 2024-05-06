@@ -157,7 +157,7 @@ HexGen introduces a novel approach with its Asymmetric Parallel Group Support, d
 HexGen can be launched with asymmetric parallel group by:
 
 ```python
-python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 9996 llama_inference.py \
+python3 -m torch.distributed.launch --nproc_per_node=8 --master_port 9996 llama_inference.py \
 --model_size llama-70b \
 --hetero_config 2 2 4 \
 --pp_partition 20 20 40 \
