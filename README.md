@@ -51,9 +51,9 @@ For scenarios where specific custom paths are required, modifications to the `cr
 ```python
 save_model_components(
     config_path='../llama-config/',
-    checkpoint_name='llama-7b',
-    checkpoint_path='/path/to/Llama-2-7b-chat-hf/',
-    num_layers=32,
+    checkpoint_name='llama-70b',
+    checkpoint_path='/path/to/Llama-2-70b-chat-hf/',
+    num_layers=80,
     save_dir='./separate_state_dicts/'
 )
 ```
@@ -158,13 +158,13 @@ HexGen can be launched with asymmetric parallel group by:
 
 ```python
 python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 9996 llama_inference.py \
---model_size llama-7b \
---hetero_config 1 2 1 \
---pp_partition 8 16 8 \
+--model_size llama-70b \
+--hetero_config 2 2 4 \
+--pp_partition 20 20 40 \
 ```
 
 ## Performance Results
-The figure below shows a comprehensive comparison of cost-performance trade-offs among different configurations and implementations, focusing on Service Level Objective (SLO) attainment in various settings:
+Experimental findings provide a detailed comparison of cost-performance trade-offs across different configurations and implementations, with a focus on achieving Service Level Objectives (SLO) in various environments:
 
 - HexGen with Asymmetric Parallel Group Support (Full Budget, Heterogeneous Setting): This configuration can achieve up to 2.3× lower latency and can handle peak request rates up to 4× higher than FlashAttention in a homogeneous setting, demonstrating significant performance enhancement.
 - HexGen (Half Budget, Heterogeneous Setting): Even with a halved budget, HexGen can still slightly outperform FlashAttention in a homogeneous environment, showcasing its ability to efficiently utilize heterogeneous GPUs.
