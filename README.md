@@ -6,6 +6,12 @@ HexGen presents a versatile framework capable of facilitating Llama-2 inference,
 
 ----------
 
+This project was made possible thanks to a collaboration with
+
+<img width="920" alt="image" src="https://github.com/Relaxed-System-Lab/HexGen/assets/85312798/779a5a3c-ad73-4c5c-9cdb-b54cc9a55f73">
+
+----------
+
 ## Content
 
 - [Building Environment](#building-environment)
