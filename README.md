@@ -1,4 +1,6 @@
-# HexGen: Generative Inference of Large Language Model over Heterogeneous Environment [[paper](https://arxiv.org/abs/2311.11514)]
+# HexGen
+
+*HexGen: Generative Inference of Large Language Model over Heterogeneous Environment* [ICML'24] [Paper Link](https://arxiv.org/abs/2311.11514)
 
 HexGen presents a versatile framework capable of facilitating Llama-2 inference, integrating **hybrid model parallelism** along with **an automated mechanism for request dispatch**. Key features include:
 - Comprehensive support for hybrid pipeline parallelism as well as tensor parallelism.
