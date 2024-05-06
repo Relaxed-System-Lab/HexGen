@@ -51,8 +51,8 @@ For scenarios where specific custom paths are required, modifications to the `cr
 ```python
 save_model_components(
     config_path='../llama-config/',
-    checkpoint_name='llama-70b',
-    checkpoint_path='/path/to/Llama-2-70b-chat-hf/',
+    checkpoint_name='llama-7b',
+    checkpoint_path='/path/to/Llama-2-7b-chat-hf/',
     num_layers=80,
     save_dir='./separate_state_dicts/'
 )
