@@ -4,7 +4,7 @@
 
 HexGen presents a versatile framework capable of facilitating Llama-2 inference, integrating **hybrid model parallelism** along with **an automated mechanism for request dispatch**. Key features include:
 - Comprehensive support for hybrid pipeline parallelism as well as tensor parallelism.
-- Ocf, a seamlessly integrated subsystem, is dedicated to coordinating and efficiently dispatching requests.
+- [Ocf](https://docs.research.computer), a seamlessly integrated subsystem, is dedicated to coordinating and efficiently dispatching requests.
 
 ----------
 
