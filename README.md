@@ -9,9 +9,10 @@ HexGen presents a versatile framework capable of facilitating Llama-2 inference,
 - [Building Environment](#building-environment)
     - [Establish A Personal Head Node Coordinator](#establish-a-personal-head-node-coordinator)
     - [Incorporate Additional Worker Nodes](#incorporate-additional-worker-nodes)
-- [Loading Model Parameters for LlaMA Models](#loading-model-parameters-for-llama-models)
+- [Loading Model Parameters for Llama Models](#loading-model-parameters-for-llama-models)
     - [Create Separate Model State Dicts](#create-separate-model-state-dicts)
     - [Load Model Parameters](#load-model-parameters)
+    - [Load Model Parameters for Llama2-70b](#load-model-parameters-for-llama2-70b)
 - [Starting HexGen](#starting-hexgen)
     - [Activating Head Node Coordinator](#activating-head-node-coordinator)
     - [Activating Worker Nodes](#activating-worker-nodes)
@@ -39,7 +40,7 @@ make hexgen-head
 make hexgen
 ```
 
-## Loading Model Parameters for LlaMA Models
+## Loading Model Parameters for Llama Models
 
 Navigate to the `hexgen/llama/load_model_parameters_utils` directory. Here, you will initiate the process of setting up parameters for the model.
 
@@ -83,6 +84,20 @@ tp_ranks_whole_model = hetero_groups['tp_ranks_whole_model']
 tp_group_list = hetero_groups['tp_rank_groups']
 state_dicts_path = "./load_model_parameters_utils/"
 load_model_parameters(model, config, state_dicts_path, tp_ranks_whole_model, tp_group_list, rank)
+```
+
+### Load Model Parameters for Llama2-70b
+
+
+The Llama2-70b model features eight key and value heads, differing from the 7b and 13b models. To accommodate this configuration, it is necessary to manually specify the appropriate settings in the `hexgen/llama/llama_config_utils.py` file:
+
+```python
+def llama_config_to_gpt2_config(llama_config: LlamaConfig) -> GPT2Config:
+    return GPT2Config(
+        ...
+        n_inner=28672,
+        n_head_kv=8,
+    )
 ```
 
 ## Starting HexGen
